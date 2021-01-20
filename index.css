@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+* {
+    text-align: center;
+    font-family: "Roboto Mono";
+}
+
+body {
+    font-size: 110%;
+    background: #DDB9A3;
+}
+
+h1 {
+    display: inline-block;
+    font-family: 'Chelsea Market';
+    font-size: 300%;
+    letter-spacing: .75rem;
+    padding-left: 15%;
+}
+
+nav a {
+    display: inline-block;
+    word-break: inherit;
+    color: white;
+    margin: 0em 4em 0.75em;
+    padding: 0.5em 2em;
+    border-radius: 1.25em;
+    text-decoration: none;
+}
+
+nav a:nth-child(1) {
+    background: #FF764E;
+    border-color: #FF764E;
+}
+
+nav a:nth-child(2) {
+    background: #5ED3EB;
+    border-color: #5ED3EB;
+}
+
+nav a:nth-child(3) {
+    background: #FFCD69;
+    border-color: #FFCD69;
+}
+
+header {
+    display: inline-block;
+    padding: 0rem 3rem 3rem;
+    text-align:left;
+    margin-bottom: 5rem;
+}
+
+header img {
+    display: inline-block;
+    float: left;
+    margin-left: 2.5rem;
+    border-radius: 100%;
+    width: 15%;
+    height: auto;
+}
+
+header section {
+    display: inline-block;
+    line-height: 1.6;
+    letter-spacing: 2px;
+    margin-left: 17rem;
+}
+
+header section p:nth-child(2) {
+    padding: 0% 25%;
+}
+
+.khaki {
+    background: rgb(245, 236, 161);
+    padding: 2rem 4rem;
+    margin: 2rem 1rem;
+}
+
+.campfire  img {
+    width: 10%;
+    height: auto;
+}
+.car img {
+    width: 10%;
+    height: auto;
+}
+
+.campfire p {
+    padding: 0.5rem 25rem;
+}
+
+.car p {
+    padding: 0.5rem 25rem 5rem;;
+}
+
+footer {
+    background: #F9E7DC;
+}
+
+footer img {
+    margin-bottom: 0.75rem;
+    border-radius: 0%;
+    width: 100%;
+    height: 25vh;
+}
