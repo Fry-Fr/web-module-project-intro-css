@@ -51,7 +51,6 @@ header {
 }
 
 header img {
-    display: inline-block;
     float: left;
     margin-left: 2.5rem;
     border-radius: 100%;
